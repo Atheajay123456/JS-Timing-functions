@@ -1,41 +1,3 @@
-//setTimeout()
-// setTimeout(()=>{
-//     console.log("This is timing function")
-// },5000);
-
-// let time=function(){
-//     console.log("this is timing function")
-// }
-// setTimeout(time,5000)
-
-//setInterval()
-// setInterval(()=>{
-//     console.log("hello");
-// },1000)
-
-
-//clearInterval()
-// let i=1;
-// let data = setInterval(()=>{
-//     console.log(i);
-//     i++;
-//     if(i>10){
-//         clearInterval(data);
-//     }
-// },1000)
-
-//clearTimeout()
-// let data=setTimeout(()=>{
-//     console.log('timings...')
-// },5000)
-// clearTimeout(data)
-
-
-
-
-
-//task
-
 // let time = new Date();
 // console.log(time.toLocaleTimeString());
 // document.body.append("Current time :" +time.toLocaleTimeString())
@@ -104,6 +66,5 @@ function signal() {
         one.style.backgroundColor = 'red';
     }, 3000);
 }
-
 // signal();
 setInterval(signal, 3000);
